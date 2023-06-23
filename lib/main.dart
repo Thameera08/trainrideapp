@@ -10,13 +10,14 @@ import 'package:trainrideapp/pages/home.dart';
 import 'package:trainrideapp/pages/people.dart';
 import 'package:trainrideapp/pages/selecttrain.dart';
 import 'package:trainrideapp/pages/traindetails.dart';
+import 'package:trainrideapp/pages/welcome.dart';
 
 
 
 void main() {
   runApp(
     const MaterialApp(
-      home: MyHomePage(),
+      home: Welcome(),
       // debugShowCheckedModeBanner: false,
     ),);
 }
